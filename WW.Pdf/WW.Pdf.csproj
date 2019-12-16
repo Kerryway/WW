@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: C:\Users\MSN99\Desktop\Cleaned\WW.Pdf.dll-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{44F60950-D0E9-4811-8F74-860DECCA0974}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>WW.Pdf</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+    <ApplicationVersion>4.0.37.140</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System.Drawing" />
+    <Reference Include="WW">
+      <HintPath>lib\WW.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="WW\Pdf\PdfDocument.cs" />
+    <Compile Include="WW\Pdf\IFilter.cs" />
+    <Compile Include="WW\Pdf\IPdfIndirectObject.cs" />
+    <Compile Include="WW\Pdf\PdfIndirectObject`1.cs" />
+    <Compile Include="WW\Pdf\PdfIndirectObject.cs" />
+    <Compile Include="WW\Pdf\IPdfObject.cs" />
+    <Compile Include="WW\Pdf\PdfDictionary.cs" />
+    <Compile Include="WW\Pdf\PdfReal.cs" />
+    <Compile Include="WW\Pdf\IPdfOutput.cs" />
+    <Compile Include="WW\Pdf\PdfWArray.cs" />
+    <Compile Include="WW\Pdf\PdfName.cs" />
+    <Compile Include="WW\Pdf\PdfBody.cs" />
+    <Compile Include="WW\Pdf\PdfLiteralString.cs" />
+    <Compile Include="WW\Pdf\PdfFileIdentifier.cs" />
+    <Compile Include="WW\Pdf\ExtendedPdfOutput.cs" />
+    <Compile Include="WW\Pdf\PdfStream.cs" />
+    <Compile Include="WW\Pdf\PdfArray.cs" />
+    <Compile Include="WW\Pdf\PdfWriter.cs" />
+    <Compile Include="WW\Pdf\PdfReference.cs" />
+    <Compile Include="WW\Pdf\PdfContentStream.cs" />
+    <Compile Include="WW\Pdf\PdfBodyCollection.cs" />
+    <Compile Include="WW\Pdf\PdfSoftMaskImage.cs" />
+    <Compile Include="WW\Pdf\PdfNull.cs" />
+    <Compile Include="WW\Pdf\PdfIndirectObjectCollection.cs" />
+    <Compile Include="WW\Pdf\PdfImage.cs" />
+    <Compile Include="WW\Pdf\PdfTextString.cs" />
+    <Compile Include="WW\Pdf\PdfBool.cs" />
+    <Compile Include="WW\Pdf\PdfInt.cs" />
+    <Compile Include="WW\Pdf\PdfCMap.cs" />
+    <Compile Include="WW\Pdf\Font\IFontMetric.cs" />
+    <Compile Include="WW\Pdf\Font\Font.cs" />
+    <Compile Include="WW\Pdf\Font\IFontDescriptor.cs" />
+    <Compile Include="WW\Pdf\Font\PdfFont.cs" />
+    <Compile Include="WW\Pdf\Font\FontState.cs" />
+    <Compile Include="WW\Pdf\Font\PdfFontCreator.cs" />
+    <Compile Include="WW\Pdf\Font\PdfFontInfo.cs" />
+    <Compile Include="WW\Pdf\Font\FontType.cs" />
+    <Compile Include="WW\Pdf\Font\PdfFontFile.cs" />
+    <Compile Include="WW\Pdf\Font\PdfFontTypeEnum.cs" />
+    <Compile Include="WW\Pdf\Font\PdfFontSubTypeEnum.cs" />
+    <Compile Include="WW\Pdf\Font\FontProperties.cs" />
+    <Compile Include="WW\Pdf\Font\FontSetup.cs" />
+    <Compile Include="WW\Pdf\Font\PdfFontCollection.cs" />
+    <Compile Include="WW\Pdf\Font\Gdi\GdiKerningPairs.cs" />
+    <Compile Include="WW\Pdf\Font\Gdi\FontStyles.cs" />
+    <Compile Include="WW\Pdf\Components\PdfDocumentInformation.cs" />
+    <Compile Include="WW\Pdf\Components\PdfContents.cs" />
+    <Compile Include="WW\Pdf\Components\PdfOutlines.cs" />
+    <Compile Include="WW\Pdf\Components\PdfCatalog.cs" />
+    <Compile Include="WW\Pdf\Components\PdfPages.cs" />
+    <Compile Include="WW\Pdf\Components\PdfPage.cs" />
+    <Compile Include="WW\Pdf\Components\PdfOptionalContentPropertiesDictionary.cs" />
+    <Compile Include="WW\Pdf\Components\PdfProcedureSetArray.cs" />
+    <Compile Include="WW\Pdf\Components\PdfOptionalContentConfigurationDictionary.cs" />
+    <Compile Include="WW\Pdf\Components\PdfPropertiesDictionary.cs" />
+    <Compile Include="WW\Pdf\Components\PdfOptionalContentGroup.cs" />
+    <Compile Include="WW\Pdf\Components\PdfResourceDictionary.cs" />
+    <Compile Include="WW\Pdf\Filter\AsciiHexFilter.cs" />
+    <Compile Include="WW\Pdf\Filter\UnsupportedFilterException.cs" />
+    <Compile Include="WW\Pdf\Filter\FlateFilter.cs" />
+    <Compile Include="ns0\Class0.cs" />
+    <Compile Include="ns0\Class29.cs" />
+    <Compile Include="ns0\Class42.cs" />
+    <Compile Include="ns0\Class30.cs" />
+    <Compile Include="ns0\Class36.cs" />
+    <Compile Include="ns0\Class72.cs" />
+    <Compile Include="ns1\Attribute0.cs" />
+    <Compile Include="ns1\Class1.cs" />
+    <Compile Include="ns1\Enum0.cs" />
+    <Compile Include="ns1\Class17.cs" />
+    <Compile Include="ns1\Class50.cs" />
+    <Compile Include="ns1\Class56.cs" />
+    <Compile Include="ns1\Delegate0.cs" />
+    <Compile Include="ns1\Class67.cs" />
+    <Compile Include="ns1\Class39.cs" />
+    <Compile Include="ns1\Class73.cs" />
+    <Compile Include="ns1\Class75.cs" />
+    <Compile Include="ns1\Class76.cs" />
+    <Compile Include="ns1\Class78.cs" />
+    <Compile Include="ns2\Class2.cs" />
+    <Compile Include="ns2\Class43.cs" />
+    <Compile Include="ns2\Class3.cs" />
+    <Compile Include="ns2\Class49.cs" />
+    <Compile Include="ns2\Class74.cs" />
+    <Compile Include="ns2\Class37.cs" />
+    <Compile Include="ns2\Class80.cs" />
+    <Compile Include="ns3\Class41.cs" />
+    <Compile Include="ns3\Class45.cs" />
+    <Compile Include="ns3\Class4.cs" />
+    <Compile Include="ns3\Class55.cs" />
+    <Compile Include="ns3\Class57.cs" />
+    <Compile Include="ns3\Class65.cs" />
+    <Compile Include="ns3\Class12.cs" />
+    <Compile Include="ns3\Class13.cs" />
+    <Compile Include="ns3\Class79.cs" />
+    <Compile Include="ns4\Class14.cs" />
+    <Compile Include="ns4\Class18.cs" />
+    <Compile Include="ns4\Class53.cs" />
+    <Compile Include="ns4\Class5.cs" />
+    <Compile Include="ns4\Class23.cs" />
+    <Compile Include="ns4\Class60.cs" />
+    <Compile Include="ns4\Struct1.cs" />
+    <Compile Include="ns5\Struct0.cs" />
+    <Compile Include="ns5\Class46.cs" />
+    <Compile Include="ns5\Class16.cs" />
+    <Compile Include="ns5\Class6.cs" />
+    <Compile Include="ns5\Class63.cs" />
+    <Compile Include="ns5\Class11.cs" />
+    <Compile Include="ns6\Class47.cs" />
+    <Compile Include="ns6\Class7.cs" />
+    <Compile Include="ns6\Class24.cs" />
+    <Compile Include="ns6\Class10.cs" />
+    <Compile Include="ns6\Class26.cs" />
+    <Compile Include="ns7\Class44.cs" />
+    <Compile Include="ns7\Class35.cs" />
+    <Compile Include="ns7\Class51.cs" />
+    <Compile Include="ns7\Class8.cs" />
+    <Compile Include="ns7\Struct3.cs" />
+    <Compile Include="ns7\Class33.cs" />
+    <Compile Include="ns8\Class34.cs" />
+    <Compile Include="ns8\Class48.cs" />
+    <Compile Include="ns8\Class54.cs" />
+    <Compile Include="ns8\Class19.cs" />
+    <Compile Include="ns8\Class62.cs" />
+    <Compile Include="ns8\Class9.cs" />
+    <Compile Include="ns8\Class68.cs" />
+    <Compile Include="ns8\Class70.cs" />
+    <Compile Include="ns8\Class40.cs" />
+    <Compile Include="ns8\Class77.cs" />
+    <Compile Include="ns8\Class81.cs" />
+    <Compile Include="ns8\Class28.cs" />
+    <Compile Include="ns8\Class82.cs" />
+    <Compile Include="ns9\Class15.cs" />
+    <Compile Include="ns9\Class20.cs" />
+    <Compile Include="ns9\Class22.cs" />
+    <Compile Include="ns9\Class59.cs" />
+    <Compile Include="ns9\Class61.cs" />
+    <Compile Include="ns9\Class31.cs" />
+    <Compile Include="ns9\Class25.cs" />
+    <Compile Include="ns9\Struct2.cs" />
+    <Compile Include="ns9\Class38.cs" />
+    <Compile Include="ns10\Class52.cs" />
+    <Compile Include="ns10\Class21.cs" />
+    <Compile Include="ns10\Delegate1.cs" />
+    <Compile Include="ns10\Class66.cs" />
+    <Compile Include="ns10\Class32.cs" />
+    <Compile Include="ns10\Class69.cs" />
+    <Compile Include="ns10\Class71.cs" />
+    <Compile Include="ns11\Class58.cs" />
+    <Compile Include="ns11\Class64.cs" />
+    <Compile Include="ns11\Class27.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -1,0 +1,375 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: C:\Users\MSN99\Desktop\Cleaned\WW.dll-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{689C056E-DE84-44BF-B0A7-5C45DB2AF77B}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>WW</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <ApplicationVersion>4.0.37.140</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Security" />
+    <Reference Include="WW.License">
+      <HintPath>lib\WW.License.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="WW\InternalException.cs" />
+    <Compile Include="WW\ICloneable.cs" />
+    <Compile Include="WW\ICloneable`1.cs" />
+    <Compile Include="WW\BigEndianBitConverter.cs" />
+    <Compile Include="WW\Pair`2.cs" />
+    <Compile Include="WW\Pair`1.cs" />
+    <Compile Include="WW\LittleEndianBitConverter.cs" />
+    <Compile Include="WW\WWConstants.cs" />
+    <Compile Include="WW\Strings.cs" />
+    <Compile Include="WW\EnumUtil.cs" />
+    <Compile Include="WW\DebugTextWriter.cs" />
+    <Compile Include="WW\Text\Encodings.cs" />
+    <Compile Include="WW\Text\PagedEncoding.cs" />
+    <Compile Include="WW\Text\StringUtil.cs" />
+    <Compile Include="WW\Text\ICanonicalGlyph.cs" />
+    <Compile Include="WW\Math\Transformation4D.cs" />
+    <Compile Include="WW\Math\ITransformer4D.cs" />
+    <Compile Include="WW\Math\Point2D.cs" />
+    <Compile Include="WW\Math\Vector2F.cs" />
+    <Compile Include="WW\Math\Vector2FConverter.cs" />
+    <Compile Include="WW\Math\Point2F.cs" />
+    <Compile Include="WW\Math\Point2FConverter.cs" />
+    <Compile Include="WW\Math\Matrix2F.cs" />
+    <Compile Include="WW\Math\MathUtil.cs" />
+    <Compile Include="WW\Math\Vector3F.cs" />
+    <Compile Include="WW\Math\Vector3FConverter.cs" />
+    <Compile Include="WW\Math\Point3F.cs" />
+    <Compile Include="WW\Math\Point3FConverter.cs" />
+    <Compile Include="WW\Math\Matrix3F.cs" />
+    <Compile Include="WW\Math\Vector4F.cs" />
+    <Compile Include="WW\Math\Vector4FConverter.cs" />
+    <Compile Include="WW\Math\Vector2D.cs" />
+    <Compile Include="WW\Math\Vector2DConverter.cs" />
+    <Compile Include="WW\Math\Point2DConverter.cs" />
+    <Compile Include="WW\Math\Matrix4F.cs" />
+    <Compile Include="WW\Math\Matrix2D.cs" />
+    <Compile Include="WW\Math\Vector3D.cs" />
+    <Compile Include="WW\Math\Vector3DConverter.cs" />
+    <Compile Include="WW\Math\Size2D.cs" />
+    <Compile Include="WW\Math\Size2DConverter.cs" />
+    <Compile Include="WW\Math\Point3D.cs" />
+    <Compile Include="WW\Math\Point3DConverter.cs" />
+    <Compile Include="WW\Math\Matrix3D.cs" />
+    <Compile Include="WW\Math\Transformer4DList.cs" />
+    <Compile Include="WW\Math\Vector4D.cs" />
+    <Compile Include="WW\Math\Vector4DConverter.cs" />
+    <Compile Include="WW\Math\Matrix4D.cs" />
+    <Compile Include="WW\Math\Bounds2D.cs" />
+    <Compile Include="WW\Math\Bounds3D.cs" />
+    <Compile Include="WW\Math\ComplexD.cs" />
+    <Compile Include="WW\Math\Transformation2F.cs" />
+    <Compile Include="WW\Math\Transformation3F.cs" />
+    <Compile Include="WW\Math\Point2DC.cs" />
+    <Compile Include="WW\Math\Transformation4F.cs" />
+    <Compile Include="WW\Math\IntervalD.cs" />
+    <Compile Include="WW\Math\Transformation2D.cs" />
+    <Compile Include="WW\Math\Transformation3D.cs" />
+    <Compile Include="WW\Math\QuaternionD.cs" />
+    <Compile Include="WW\Math\QuaternionDConverter.cs" />
+    <Compile Include="WW\Math\Constants.cs" />
+    <Compile Include="WW\Math\Geometry\Line3D.cs" />
+    <Compile Include="WW\Math\Geometry\IShape2D.cs" />
+    <Compile Include="WW\Math\Geometry\Polygon2D.cs" />
+    <Compile Include="WW\Math\Geometry\ISegment2DIterator.cs" />
+    <Compile Include="WW\Math\Geometry\NurbsUtilD.cs" />
+    <Compile Include="WW\Math\Geometry\IPolylineFactory`2.cs" />
+    <Compile Include="WW\Math\Geometry\Polyline`1.cs" />
+    <Compile Include="WW\Math\Geometry\IShape4D.cs" />
+    <Compile Include="WW\Math\Geometry\FlatShape4D.cs" />
+    <Compile Include="WW\Math\Geometry\Line4D.cs" />
+    <Compile Include="WW\Math\Geometry\ShapeTool.cs" />
+    <Compile Include="WW\Math\Geometry\NullShape4D.cs" />
+    <Compile Include="WW\Math\Geometry\IInsideTester4D.cs" />
+    <Compile Include="WW\Math\Geometry\Rectangle2D.cs" />
+    <Compile Include="WW\Math\Geometry\SegmentType.cs" />
+    <Compile Include="WW\Math\Geometry\Polygon2DCollection.cs" />
+    <Compile Include="WW\Math\Geometry\Region2DCollection.cs" />
+    <Compile Include="WW\Math\Geometry\Plane3D.cs" />
+    <Compile Include="WW\Math\Geometry\NullSegment2DIterator.cs" />
+    <Compile Include="WW\Math\Geometry\Triangulator2D.cs" />
+    <Compile Include="WW\Math\Geometry\Triangle2D.cs" />
+    <Compile Include="WW\Math\Geometry\OrientedRectangle2D.cs" />
+    <Compile Include="WW\Math\Geometry\Polyline2D.cs" />
+    <Compile Include="WW\Math\Geometry\Arc2D.cs" />
+    <Compile Include="WW\Math\Geometry\Ray2D.cs" />
+    <Compile Include="WW\Math\Geometry\Polyline3D.cs" />
+    <Compile Include="WW\Math\Geometry\GeneralShape2D.cs" />
+    <Compile Include="WW\Math\Geometry\BlinnClipper2D.cs" />
+    <Compile Include="WW\Math\Geometry\Ray3D.cs" />
+    <Compile Include="WW\Math\Geometry\Polyline4D.cs" />
+    <Compile Include="WW\Math\Geometry\VattiClipper2DV3.cs" />
+    <Compile Include="WW\Math\Geometry\InsideTestResult.cs" />
+    <Compile Include="WW\Math\Geometry\ClipUtil.cs" />
+    <Compile Include="WW\Math\Geometry\Ray4D.cs" />
+    <Compile Include="WW\Math\Geometry\BSplineCurve2D.cs" />
+    <Compile Include="WW\Math\Geometry\IClipper4D.cs" />
+    <Compile Include="WW\Math\Geometry\AbstractClipperBase4D.cs" />
+    <Compile Include="WW\Math\Geometry\BlinnClipper4D.cs" />
+    <Compile Include="WW\Math\Geometry\TransformingSegment2DIterator.cs" />
+    <Compile Include="WW\Math\Geometry\PolylineShape4D.cs" />
+    <Compile Include="WW\Math\Geometry\FillMode.cs" />
+    <Compile Include="WW\Math\Geometry\Segment1D.cs" />
+    <Compile Include="WW\Math\Geometry\CachedBoundsShape2D.cs" />
+    <Compile Include="WW\Math\Geometry\Segment2D.cs" />
+    <Compile Include="WW\Math\Geometry\Polyline2DCollection.cs" />
+    <Compile Include="WW\Math\Geometry\OrientedBox3D.cs" />
+    <Compile Include="WW\Math\Geometry\Segment3D.cs" />
+    <Compile Include="WW\Math\Geometry\Polygon3D.cs" />
+    <Compile Include="WW\Math\Geometry\NoMoreSegmentsException.cs" />
+    <Compile Include="WW\Math\Geometry\FillableShape2D.cs" />
+    <Compile Include="WW\Math\Geometry\Segment4D.cs" />
+    <Compile Include="WW\Math\Geometry\Circle2D.cs" />
+    <Compile Include="WW\Math\Geometry\Line2D.cs" />
+    <Compile Include="WW\Math\Geometry\Shape2DCollectionIterator.cs" />
+    <Compile Include="WW\Math\Geometry\NullShape2D.cs" />
+    <Compile Include="WW\Math\Exact\Point2BR.cs" />
+    <Compile Include="WW\Math\Exact\Matrix3LR.cs" />
+    <Compile Include="WW\Math\Exact\Matrix2BI.cs" />
+    <Compile Include="WW\Math\Exact\LongRational.cs" />
+    <Compile Include="WW\Math\Exact\Vector2L.cs" />
+    <Compile Include="WW\Math\Exact\Vector2LConverter.cs" />
+    <Compile Include="WW\Math\Exact\Matrix2LR.cs" />
+    <Compile Include="WW\Math\Exact\Point2I.cs" />
+    <Compile Include="WW\Math\Exact\BigMath.cs" />
+    <Compile Include="WW\Math\Exact\Vector4BR.cs" />
+    <Compile Include="WW\Math\Exact\Vector4BRConverter.cs" />
+    <Compile Include="WW\Math\Exact\Vector3L.cs" />
+    <Compile Include="WW\Math\Exact\Vector3LConverter.cs" />
+    <Compile Include="WW\Math\Exact\Vector3BR.cs" />
+    <Compile Include="WW\Math\Exact\Vector3BRConverter.cs" />
+    <Compile Include="WW\Math\Exact\Point2LR.cs" />
+    <Compile Include="WW\Math\Exact\Vector2I.cs" />
+    <Compile Include="WW\Math\Exact\Vector2IConverter.cs" />
+    <Compile Include="WW\Math\Exact\Vector2BR.cs" />
+    <Compile Include="WW\Math\Exact\Vector3I.cs" />
+    <Compile Include="WW\Math\Exact\Vector3IConverter.cs" />
+    <Compile Include="WW\Math\Exact\Bounds2I.cs" />
+    <Compile Include="WW\Math\Exact\Matrix3BR.cs" />
+    <Compile Include="WW\Math\Exact\Point2L.cs" />
+    <Compile Include="WW\Math\Exact\Point2LConverter.cs" />
+    <Compile Include="WW\Math\Exact\Matrix2BR.cs" />
+    <Compile Include="WW\Math\Exact\Point3LR.cs" />
+    <Compile Include="WW\Math\Exact\Point3LRConverter.cs" />
+    <Compile Include="WW\Math\Exact\Point3L.cs" />
+    <Compile Include="WW\Math\Exact\Point3LConverter.cs" />
+    <Compile Include="WW\Math\Exact\Bounds2LR.cs" />
+    <Compile Include="WW\Math\Exact\Point2IConverter.cs" />
+    <Compile Include="WW\Math\Exact\MutableBigInteger.cs" />
+    <Compile Include="WW\Math\Exact\BigRational.cs" />
+    <Compile Include="WW\Math\Exact\Vector4LR.cs" />
+    <Compile Include="WW\Math\Exact\Vector4LRConverter.cs" />
+    <Compile Include="WW\Math\Exact\Point3I.cs" />
+    <Compile Include="WW\Math\Exact\Point3IConverter.cs" />
+    <Compile Include="WW\Math\Exact\Vector3LR.cs" />
+    <Compile Include="WW\Math\Exact\Vector3LRConverter.cs" />
+    <Compile Include="WW\Math\Exact\BigInteger.cs" />
+    <Compile Include="WW\Math\Exact\Vector2LR.cs" />
+    <Compile Include="WW\Math\Exact\Point3BR.cs" />
+    <Compile Include="WW\Math\Exact\Point3BRConverter.cs" />
+    <Compile Include="WW\Math\Exact\Matrix3BI.cs" />
+    <Compile Include="WW\Math\Exact\Bounds2BR.cs" />
+    <Compile Include="WW\Math\Exact\Geometry\Triangulator2LR.cs" />
+    <Compile Include="WW\Math\Exact\Geometry\Triangle2LR.cs" />
+    <Compile Include="WW\Math\Exact\Geometry\Segment2I.cs" />
+    <Compile Include="WW\Math\Exact\Geometry\Polygon2I.cs" />
+    <Compile Include="WW\Math\Exact\Geometry\Segment2BR.cs" />
+    <Compile Include="WW\Math\Exact\Geometry\Polygon2LR.cs" />
+    <Compile Include="WW\Math\Exact\Geometry\Polygon2ICollection.cs" />
+    <Compile Include="WW\Math\Exact\Geometry\Triangulator2BR.cs" />
+    <Compile Include="WW\Math\Exact\Geometry\Triangle2BR.cs" />
+    <Compile Include="WW\Math\Exact\Geometry\Ray2LR.cs" />
+    <Compile Include="WW\Math\Exact\Geometry\Polygon2BR.cs" />
+    <Compile Include="WW\Math\Exact\Geometry\Line2LR.cs" />
+    <Compile Include="WW\Math\Exact\Geometry\Polygon2L.cs" />
+    <Compile Include="WW\Math\Exact\Geometry\Segment2LR.cs" />
+    <Compile Include="WW\Math\Exact\Geometry\Triangulator2I.cs" />
+    <Compile Include="WW\Math\Exact\Geometry\VattiClipper2I.cs" />
+    <Compile Include="WW\Math\Exact\Geometry\Segment2L.cs" />
+    <Compile Include="WW\Math\Exact\Geometry\Ray2BR.cs" />
+    <Compile Include="WW\Math\Exact\Geometry\Line2BR.cs" />
+    <Compile Include="WW\Math\Exact\Geometry\Triangle2I.cs" />
+    <Compile Include="WW\ComponentModel\SortedPropertiesTypeConverter.cs" />
+    <Compile Include="WW\ComponentModel\GlobalizedTypeAttribute.cs" />
+    <Compile Include="WW\ComponentModel\PropertyIndexAttribute.cs" />
+    <Compile Include="WW\ComponentModel\GlobalizedPropertyAttribute.cs" />
+    <Compile Include="WW\ComponentModel\UndoRedoPropertyDescriptor.cs" />
+    <Compile Include="WW\ComponentModel\DisposableComponentContainer.cs" />
+    <Compile Include="WW\ComponentModel\PropertyAttributesProvider.cs" />
+    <Compile Include="WW\ComponentModel\PropertyAttributesProviderAttribute.cs" />
+    <Compile Include="WW\ComponentModel\PropertyAttributes.cs" />
+    <Compile Include="WW\ComponentModel\PropertyDescriptor2.cs" />
+    <Compile Include="WW\ComponentModel\UndoRedoTypeDescriptor.cs" />
+    <Compile Include="WW\Collections\Generic\KeyedCollection`2.cs" />
+    <Compile Include="WW\Collections\Generic\ActiveKeyedCollection`2.cs" />
+    <Compile Include="WW\Collections\Generic\RedBlackTree`1.cs" />
+    <Compile Include="WW\Collections\Generic\LookupList`2.cs" />
+    <Compile Include="WW\Collections\Generic\RedBlackTreeWhereItemComparable`1.cs" />
+    <Compile Include="WW\Collections\Generic\ActiveLookupList`2.cs" />
+    <Compile Include="WW\Collections\Generic\BinaryHeap`1.cs" />
+    <Compile Include="WW\Collections\Generic\MinBinaryHeap`1.cs" />
+    <Compile Include="WW\Collections\Generic\MaxBinaryHeap`1.cs" />
+    <Compile Include="WW\Collections\Generic\ItemEventHandler`1.cs" />
+    <Compile Include="WW\Collections\Generic\ItemSetEventHandler`1.cs" />
+    <Compile Include="WW\Collections\Generic\ActiveList`1.cs" />
+    <Compile Include="WW\Collections\Generic\LinkedListNodeRef`1.cs" />
+    <Compile Include="WW\Collections\Generic\SortedList`1.cs" />
+    <Compile Include="WW\IO\IMemoryPageCache.cs" />
+    <Compile Include="WW\IO\StreamUtil.cs" />
+    <Compile Include="WW\IO\MemoryPageCache.cs" />
+    <Compile Include="WW\IO\PagedMemoryStream.cs" />
+    <Compile Include="WW\IO\Compression\ZlibCompressStream.cs" />
+    <Compile Include="WW\IO\Compression\ZlibDecompressStream.cs" />
+    <Compile Include="WW\Actions\IInteractor.cs" />
+    <Compile Include="WW\Actions\IScaler.cs" />
+    <Compile Include="WW\Actions\InteractorEventArgs.cs" />
+    <Compile Include="WW\Actions\ICommand.cs" />
+    <Compile Include="WW\Actions\CommandGroup.cs" />
+    <Compile Include="WW\Actions\ITransformationProvider.cs" />
+    <Compile Include="WW\Actions\CommandEventArgs.cs" />
+    <Compile Include="WW\Actions\Command.cs" />
+    <Compile Include="WW\Actions\SimpleTransformationProviderBase.cs" />
+    <Compile Include="WW\Actions\SimpleTransformationProvider2D.cs" />
+    <Compile Include="WW\Actions\Interactor.cs" />
+    <Compile Include="WW\Actions\IInteractorWinFormsDrawable.cs" />
+    <Compile Include="WW\Actions\RotateInteractor.cs" />
+    <Compile Include="WW\Actions\ITransaction.cs" />
+    <Compile Include="WW\Actions\SimpleTransformationProvider3D.cs" />
+    <Compile Include="WW\Actions\InteractorWrapper.cs" />
+    <Compile Include="WW\Actions\InteractorWithMouseButtonDownFilter.cs" />
+    <Compile Include="WW\Actions\CommandInvoker.cs" />
+    <Compile Include="WW\Actions\ITranslator.cs" />
+    <Compile Include="WW\Actions\ZoomWheelInteractor.cs" />
+    <Compile Include="WW\Actions\InteractorMouseEventArgs.cs" />
+    <Compile Include="WW\Actions\SimpleInteractor.cs" />
+    <Compile Include="WW\Actions\SimpleZoomWheelInteractor.cs" />
+    <Compile Include="WW\Actions\SimpleRectZoomInteractor.cs" />
+    <Compile Include="WW\Actions\InteractionContext.cs" />
+    <Compile Include="WW\Actions\ModelBoundsFitType.cs" />
+    <Compile Include="WW\Actions\CanonicalMouseEventArgs.cs" />
+    <Compile Include="WW\Actions\Transaction.cs" />
+    <Compile Include="WW\Actions\RotateAroundZInteractor.cs" />
+    <Compile Include="WW\Actions\SimpleRotateAroundZInteractor.cs" />
+    <Compile Include="WW\Actions\SimplePanInteractor.cs" />
+    <Compile Include="WW\Actions\InteractorDescriptor.cs" />
+    <Compile Include="WW\Actions\SimpleRotateInteractor.cs" />
+    <Compile Include="WW\Actions\TransactionStatus.cs" />
+    <Compile Include="WW\Actions\RectZoomInteractor.cs" />
+    <Compile Include="WW\Actions\MouseButtonFlags.cs" />
+    <Compile Include="WW\Actions\Windows\PanInteractor.cs" />
+    <Compile Include="WW\Windows\InputUtil.cs" />
+    <Compile Include="WW\Windows\Caret.cs" />
+    <Compile Include="WW\Windows\Forms\FloatingForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WW\Windows\Forms\ColorComponentEditor.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WW\Windows\Forms\FormsUtil.cs" />
+    <Compile Include="WW\Windows\Forms\ColorComponentBar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WW\Windows\Forms\ColorRgbEditor.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WW\Windows\Forms\ColorWheel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WW\Windows\Forms\ViewControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WW\Windows\Forms\ColorListPicker.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WW\Windows\Forms\MessageForwarder.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WW\Windows\Forms\WindowsMessage.cs" />
+    <Compile Include="WW\Windows\Forms\TreeView2.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WW\Windows\Forms\FieldEditControl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WW\Windows\Forms\PropertyGrid2.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WW\Drawing\FontUtil.cs" />
+    <Compile Include="WW\Drawing\ArgbColor.cs" />
+    <Compile Include="WW\Drawing\ArgbColorTypeConverter.cs" />
+    <Compile Include="WW\Drawing\Rasterizer2D.cs" />
+    <Compile Include="WW\Drawing\IBitmap.cs" />
+    <Compile Include="WW\Drawing\PenInfo.cs" />
+    <Compile Include="WW\Drawing\GraphicsHelper.cs" />
+    <Compile Include="WW\Drawing\GdiBitmap.cs" />
+    <Compile Include="WW\Drawing\GridSnapper.cs" />
+    <Compile Include="WW\Drawing\ArgbColors.cs" />
+    <Compile Include="WW\Diagnostics\IDumpable.cs" />
+    <Compile Include="WW\Diagnostics\DumpWriter.cs" />
+    <Compile Include="WW\Util\Md5Helper.cs" />
+    <Compile Include="WW\Compression\CompressionUtil.cs" />
+    <Compile Include="ns0\Class37.cs" />
+    <Compile Include="ns0\Class98.cs" />
+    <Compile Include="ns1\Attribute0.cs" />
+    <Compile Include="ns2\Class53.cs" />
+    <Compile Include="ns2\Class145.cs" />
+    <Compile Include="ns3\Enum0.cs" />
+    <Compile Include="ns3\Class184.cs" />
+    <Compile Include="ns4\Interface0.cs" />
+    <Compile Include="ns5\Class64.cs" />
+    <Compile Include="ns6\Class65.cs" />
+    <Compile Include="ns7\Class81.cs" />
+    <Compile Include="ns8\Class123.cs" />
+    <Compile Include="ns9\Class124.cs" />
+    <Compile Include="ns9\Class183.cs" />
+    <Compile Include="ns9\Attribute1.cs" />
+    <Compile Include="ns10\Class203.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="WW\Strings.resx" />
+    <EmbeddedResource Include="WW\Windows\Forms\ColorComponentEditor.resx" />
+    <EmbeddedResource Include="WW\Windows\Forms\ColorRgbEditor.resx" />
+    <EmbeddedResource Include="WW\Windows\Forms\FloatingForm.resx" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

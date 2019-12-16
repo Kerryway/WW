@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: C:\Users\MSN99\Desktop\Cleaned\WW.GL.dll-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{DE2B9B4D-1452-41E6-AFD0-DFE3E662CF63}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>WW.GL</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+    <ApplicationVersion>4.0.37.140</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="WW">
+      <HintPath>lib\WW.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Security" />
+    <Reference Include="WW.License">
+      <HintPath>lib\WW.License.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="WW\OpenGL\MeshMode1.cs" />
+    <Compile Include="WW\OpenGL\MatrixMode.cs" />
+    <Compile Include="WW\OpenGL\ColorTableParameterName.cs" />
+    <Compile Include="WW\OpenGL\ClientAttributeFlags.cs" />
+    <Compile Include="WW\OpenGL\PixelCopyType.cs" />
+    <Compile Include="WW\OpenGL\TessellationErrorCode.cs" />
+    <Compile Include="WW\OpenGL\QuadricDrawStyle.cs" />
+    <Compile Include="WW\OpenGL\Capability.cs" />
+    <Compile Include="WW\OpenGL\BlendingFactorDestination.cs" />
+    <Compile Include="WW\OpenGL\GLU.cs" />
+    <Compile Include="WW\OpenGL\TessellationProperty.cs" />
+    <Compile Include="WW\OpenGL\ListMode.cs" />
+    <Compile Include="WW\OpenGL\GLUErrorCode.cs" />
+    <Compile Include="WW\OpenGL\ContourType.cs" />
+    <Compile Include="WW\OpenGL\TextureMagFilter.cs" />
+    <Compile Include="WW\OpenGL\LightParameter.cs" />
+    <Compile Include="WW\OpenGL\FeedBackMode.cs" />
+    <Compile Include="WW\OpenGL\DrawBufferMode.cs" />
+    <Compile Include="WW\OpenGL\MaterialFace.cs" />
+    <Compile Include="WW\OpenGL\PolygonOffset.cs" />
+    <Compile Include="WW\OpenGL\PixelTransfer.cs" />
+    <Compile Include="WW\OpenGL\QuadricNormal.cs" />
+    <Compile Include="WW\OpenGL\NurbsTrim.cs" />
+    <Compile Include="WW\OpenGL\TextureWrapMode.cs" />
+    <Compile Include="WW\OpenGL\ShadingModel.cs" />
+    <Compile Include="WW\OpenGL\AlphaFunction.cs" />
+    <Compile Include="WW\OpenGL\TextureEnvironmentParameterName.cs" />
+    <Compile Include="WW\OpenGL\TextureCompareMode.cs" />
+    <Compile Include="WW\OpenGL\GLGraphics.cs" />
+    <Compile Include="WW\OpenGL\ErrorCode.cs" />
+    <Compile Include="WW\OpenGL\QuadricOrientation.cs" />
+    <Compile Include="WW\OpenGL\ColorTableParameterTarget.cs" />
+    <Compile Include="WW\OpenGL\PixelFormat.cs" />
+    <Compile Include="WW\OpenGL\RotationalDirection.cs" />
+    <Compile Include="WW\OpenGL\TessellationCallbackType.cs" />
+    <Compile Include="WW\OpenGL\NurbsErrorCode.cs" />
+    <Compile Include="WW\OpenGL\VertexArray.cs" />
+    <Compile Include="WW\OpenGL\TextureCoordName.cs" />
+    <Compile Include="WW\OpenGL\HintMode.cs" />
+    <Compile Include="WW\OpenGL\ComparisonFunction.cs" />
+    <Compile Include="WW\OpenGL\HintTarget.cs" />
+    <Compile Include="WW\OpenGL\PixelFormatInternal.cs" />
+    <Compile Include="WW\OpenGL\DepthTextureMode.cs" />
+    <Compile Include="WW\OpenGL\ColorMaterialFace.cs" />
+    <Compile Include="WW\OpenGL\ArrayPointerType.cs" />
+    <Compile Include="WW\OpenGL\StencilOperation.cs" />
+    <Compile Include="WW\OpenGL\MaterialParameter.cs" />
+    <Compile Include="WW\OpenGL\DisplayList.cs" />
+    <Compile Include="WW\OpenGL\ClientArrayType.cs" />
+    <Compile Include="WW\OpenGL\PolygonMode.cs" />
+    <Compile Include="WW\OpenGL\FeedBackToken.cs" />
+    <Compile Include="WW\OpenGL\LightModelParameter.cs" />
+    <Compile Include="WW\OpenGL\CallbackType.cs" />
+    <Compile Include="WW\OpenGL\TextureGenParameter.cs" />
+    <Compile Include="WW\OpenGL\StringName.cs" />
+    <Compile Include="WW\OpenGL\GL.cs" />
+    <Compile Include="WW\OpenGL\CullFaceMode.cs" />
+    <Compile Include="WW\OpenGL\InterleavedArrayFormat.cs" />
+    <Compile Include="WW\OpenGL\TessellationWinding.cs" />
+    <Compile Include="WW\OpenGL\NurbsDisplay.cs" />
+    <Compile Include="WW\OpenGL\GLUStringName.cs" />
+    <Compile Include="WW\OpenGL\ClearBufferFlags.cs" />
+    <Compile Include="WW\OpenGL\AccumulationOperation.cs" />
+    <Compile Include="WW\OpenGL\TextureMinFilter.cs" />
+    <Compile Include="WW\OpenGL\Mode.cs" />
+    <Compile Include="WW\OpenGL\RenderingContext.cs" />
+    <Compile Include="WW\OpenGL\MapTarget.cs" />
+    <Compile Include="WW\OpenGL\GetTextureLevelParameter.cs" />
+    <Compile Include="WW\OpenGL\NurbsSampling.cs" />
+    <Compile Include="WW\OpenGL\NurbsProperty.cs" />
+    <Compile Include="WW\OpenGL\BlendingFactorSource.cs" />
+    <Compile Include="WW\OpenGL\LogicalOperation.cs" />
+    <Compile Include="WW\OpenGL\ReadBufferMode.cs" />
+    <Compile Include="WW\OpenGL\RenderingMode.cs" />
+    <Compile Include="WW\OpenGL\ColorMaterialParameter.cs" />
+    <Compile Include="WW\OpenGL\TextureEnvironmentTarget.cs" />
+    <Compile Include="WW\OpenGL\TextureEnvironmentMode.cs" />
+    <Compile Include="WW\OpenGL\FogMode.cs" />
+    <Compile Include="WW\OpenGL\DataType.cs" />
+    <Compile Include="WW\OpenGL\PixelStore.cs" />
+    <Compile Include="WW\OpenGL\MapTargetParameter.cs" />
+    <Compile Include="WW\OpenGL\TextureTarget.cs" />
+    <Compile Include="WW\OpenGL\TextureParameterName.cs" />
+    <Compile Include="WW\OpenGL\TextureGenMode.cs" />
+    <Compile Include="WW\OpenGL\GLException.cs" />
+    <Compile Include="WW\OpenGL\StencilFunction.cs" />
+    <Compile Include="WW\OpenGL\PixelMapName.cs" />
+    <Compile Include="WW\OpenGL\GetTarget.cs" />
+    <Compile Include="WW\OpenGL\FogParameter.cs" />
+    <Compile Include="WW\OpenGL\ClipPlaneName.cs" />
+    <Compile Include="WW\OpenGL\AttributeFlags.cs" />
+    <Compile Include="WW\OpenGL\LightName.cs" />
+    <Compile Include="WW\OpenGL\MeshMode2.cs" />
+    <Compile Include="WW\OpenGL\Win\WGL.cs" />
+    <Compile Include="WW\OpenGL\Win\DIBDataType.cs" />
+    <Compile Include="WW\OpenGL\Win\PixelFormatDescriptor.cs" />
+    <Compile Include="WW\OpenGL\Win\BitmapInfo.cs" />
+    <Compile Include="WW\OpenGL\Win\PFD.cs" />
+    <Compile Include="WW\OpenGL\Actions\IInteractorGLDrawable.cs" />
+    <Compile Include="WW\OpenGL\Actions\InteractorGLDrawable.cs" />
+    <Compile Include="WW\OpenGL\Actions\SimpleRectZoomInteractorGLDrawable.cs" />
+    <Compile Include="ns0\Attribute0.cs" />
+    <Compile Include="ns0\Attribute5.cs" />
+    <Compile Include="ns0\Class4.cs" />
+    <Compile Include="ns1\Class0.cs" />
+    <Compile Include="ns2\Enum0.cs" />
+    <Compile Include="ns2\Attribute2.cs" />
+    <Compile Include="ns3\Attribute1.cs" />
+    <Compile Include="ns4\Attribute3.cs" />
+    <Compile Include="ns4\Attribute7.cs" />
+    <Compile Include="ns4\Class2.cs" />
+    <Compile Include="ns5\Attribute4.cs" />
+    <Compile Include="ns5\Class1.cs" />
+    <Compile Include="ns5\Class3.cs" />
+    <Compile Include="ns6\Attribute6.cs" />
+    <Compile Include="ns7\Attribute8.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
